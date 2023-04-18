@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    border: solid;
+    width: 40%;
+    height: 60%;
+    background-color: rgb(194, 182, 182);
+}
+h1{
+    text-align: center;
+}
+.contenedor_abajo{
+    width: 100%;
+    height: 94.5%;
+    display: flex;
+}
+.primero{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7%;
+
+}
+.texto{
+    width: 20%;
+    height: 10%;
+    font-size: 20px;
+    text-align: center;
+}
+.selecotr{
+    width: 12%;
+    height: 9%;
+    margin-bottom: 15%;
+    font-size: 20px;
+}
+.pantalla{
+    width: 25%;
+    height: 10%;
+    margin-bottom: 10%;
+    font-size: 30px;
+    text-align: center;
+}
+.convertir{
+    width: 80%;
+    height: 20%;
+    background-color: aqua;
+}
+.convertir:hover{
+    background-color: aquamarine;
+}
+.segundo{
+    width: 49.8%;
+    height: 98.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    gap: 3%;
+}
+.termometro{
+    border: solid 1px;
+    height: 50%;
+    width: 18%;
+    transform: rotate(180deg);
+    overflow: hidden;
+}
+.mercurio{
+    width: 100%;
+    height: 0%;
+    background-color: red;
+    transition: height 3s;
+}
